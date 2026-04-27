@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c50128cd3622f59e16bf3288cf1202475ba8326e919a5bc9dfc2077bdc9440e7
-size 151
+Modelo,Accuracy,Precision,Recall,F1,ROC_AUC
+RandomForest (Grid),0.8045977011494253,0.6057941024314537,0.6494731003882418,0.6268736616702355,0.8592893646377945
