@@ -1,0 +1,19 @@
+==============================================================
+  DIAGNÓSTICO DE OVERFITTING — MODELO FINAL
+==============================================================
+  Nivel            : 🔴 Overfitting SEVERO
+  Gap Train−CV Val  : +0.1160
+  Gap CV Val−Test   : +0.2571
+  Std CV Val F1    : 0.0041
+  Estabilidad CV   : ✅  Alta (std < 0.02)
+  CV → Test        : ⚠️  CV sobreestima el test — posible data leakage
+--------------------------------------------------------------
+  Recomendación: El modelo memoriza el train. Aplicar regularización fuerte, early stopping o reducir complejidad del modelo.
+==============================================================
+
+Modelo: RandomForest (Grid)
+                 Conjunto     F1  Accuracy  ROC_AUC
+   Train (resubstitución) 1.0000    1.0000   1.0000
+ CV Train mean (por fold) 1.0000    1.0000   1.0000
+CV Validation mean (k=10) 0.8840    0.8819   0.9544
+            Test Hold-out 0.6269    0.8046   0.8593
